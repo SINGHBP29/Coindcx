@@ -4,7 +4,7 @@
 ![image](https://github.com/user-attachments/assets/b0afe651-e5bd-498d-805f-e30d376fbca6)
 
 
-```markdown
+
 # 🪙 CoinDCX Trading Platform
 
 Sure! Here's a **Project Explanation** section you can directly add to your `README.md` (or use separately in your proposal/portfolio):
@@ -74,14 +74,14 @@ Let me know if you'd like this turned into a portfolio PDF, presentation slide, 
   - 🔍 **FAISS Integration** – Semantic vector search for embedded historical text data (e.g., logs, strategies).
   - 🔐 **Secure API Handling** – CoinDCX API credentials handled with `.env` and HMAC SHA256 signing.
   
-```
+``
 ## 📂 Project Structure
 
-[image](https://github.com/user-attachments/assets/842c2692-c17d-453e-8904-4fb9f8b8798e)
+ ![image](https://github.com/user-attachments/assets/842c2692-c17d-453e-8904-4fb9f8b8798e)
 
 
  ```` 
-  ## 📦 Installation
+ ## 📦 Installation
   
   ### 1. Clone the Repository
   
