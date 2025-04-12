@@ -182,5 +182,5 @@ MIT License. Use it, fork it, improve it!
 ## 🙌 Author
 
 **Your Name**  
-📫 Connect: [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/yourusername)
+📫 Connect: [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/bpsingh29/)) | [GitHub]([https://github.com/yourusername](https://github.com/SINGHBP29))
 
