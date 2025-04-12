@@ -26,20 +26,7 @@ A full-featured crypto trading dashboard built with **Streamlit**, powered by **
 
 ## 📂 Project Structure
 
-```
-📁 coindcx-trader/
-├── app.py                  # Streamlit UI
-├── main.py                 # CLI entrypoint + core app bootstrapping
-├── .env                    # API credentials (not committed)
-├── api_service.py          # Authenticated CoinDCX API client
-├── market_service.py       # INR market data retrieval
-├── account_service.py      # Portfolio, deposit, withdrawal views
-├── order_service.py        # Create/cancel/view orders
-├── test_auth.py            # API testing script
-├── redis_cache.py          # Redis-based caching logic
-├── requirements.txt
-└── README.md
-```
+![image](https://github.com/user-attachments/assets/842c2692-c17d-453e-8904-4fb9f8b8798e)
 
 ---
 
@@ -48,7 +35,7 @@ A full-featured crypto trading dashboard built with **Streamlit**, powered by **
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/coindcx-trading-platform.git
+git clone [https://github.com/yourusername/coindcx-trading-platform.git](https://github.com/SINGHBP29/Coindcx/edit/main/)
 cd coindcx-trading-platform
 ```
 
