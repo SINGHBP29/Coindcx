@@ -7,7 +7,59 @@
 ```markdown
 # 🪙 CoinDCX Trading Platform
 
-A full-featured crypto trading dashboard built with **Streamlit**, powered by **Redis**, **FAISS**, and **CrewAI Agents (non-LLM)**. The platform integrates directly with the **CoinDCX API** and provides a rich user experience for managing your crypto assets, analyzing the market, and simulating smart agent-based decisions.
+Sure! Here's a **Project Explanation** section you can directly add to your `README.md` (or use separately in your proposal/portfolio):
+
+---
+
+## 🧩 Project Explanation
+
+### 🎯 Objective
+
+The **CoinDCX Trading Platform** aims to create an intelligent and user-friendly crypto trading assistant using the CoinDCX exchange API. It enables users to interact with live market data, manage their crypto portfolio, place/cancel orders, and receive strategic insights — all through a seamless **Streamlit** web interface and a **modular backend** powered by **CrewAI agents (non-LLM)**.
+
+---
+
+### 🛠️ Approach
+
+The platform is designed with a **microservice-style architecture**, consisting of separate components for API interaction, user portfolio management, order handling, and agent-based market analysis. The app is responsive, modular, and deployable both **locally** and **on Streamlit Cloud**.
+
+---
+
+### 🌟 Key Features Implemented
+
+| Feature | Description |
+|--------|-------------|
+| **Authentication** | Simple user login/registration via unique `user_id`, stored in Redis. |
+| **Live Market Viewer** | Fetches and filters INR-paired crypto data with last price, volume, 24h change. |
+| **Portfolio Tracker** | Displays live holdings, locked funds, and estimated INR value using CoinDCX balances + market prices. |
+| **Buy/Sell Orders** | Place market or limit buy/sell orders through the secure API interface. |
+| **Order Management** | View current active orders, cancel specific ones, and check trade history. |
+| **Agent-Based Analysis** | Two rule-based agents simulate human-like logic to detect market trends and advise trades. |
+| **FAISS Search Engine** | Users can add and search custom strategy/data text using semantic vector retrieval. |
+| **Redis Caching** | Speeds up repeat data access (e.g., balances, orders) and simulates session-based memory. |
+
+---
+
+### 🧠 How the Platform Works
+
+1. **User logs in or registers** with a simple `user_id` (no passwords required). The ID is tracked in **Redis** for data caching.
+2. On login, users can:
+   - View **filtered live market data** from CoinDCX.
+   - See a **snapshot of their portfolio** using account balance + market price.
+   - Place **buy/sell orders** (limit or market type).
+   - Check and manage **active orders** or **historical trades**.
+3. In the **"Agent Analysis"** tab:
+   - A **Market Analyst Agent** calculates average vs. current price and labels trends as bullish/bearish.
+   - A **Trade Advisor Agent** provides trade suggestions based on market outlook and portfolio data.
+   - No LLM is used — logic is 100% interpretable and rule-based.
+4. In the **FAISS section**, users can:
+   - Input and vectorize strategy notes or logs.
+   - Perform **semantic search** for related entries.
+   - All embeddings are stored locally using `sentence-transformers`.
+
+---
+
+Let me know if you'd like this turned into a portfolio PDF, presentation slide, or GitHub `README` version with visuals!
 
 ---
 
