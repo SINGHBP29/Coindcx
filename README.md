@@ -84,8 +84,8 @@ Let me know if you'd like this turned into a portfolio PDF, presentation slide, 
  ## 📦 Installation
   
   ### 1. Clone the Repository
-  
-  ```bash
+  `````
+```bash
   git clone [https://github.com/yourusername/coindcx-trading-platform.git](https://github.com/SINGHBP29/Coindcx/edit/main/)
   cd coindcx-trading-platform
 ```
