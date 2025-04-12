@@ -13,30 +13,29 @@ A full-featured crypto trading dashboard built with **Streamlit**, powered by **
 
 ## 🚀 Features
 
-- 👤 **User Authentication & Caching** – Login/Register using a simple `user_id`, stored with Redis.
-- 📈 **Live Market Data** – Search and view current INR-based markets with price/volume metrics.
-- 💼 **Portfolio Viewer** – View current holdings, locked balances, and INR value estimations.
-- 💸 **Trade Execution** – Place market/limit buy/sell orders securely.
-- 📃 **Order Management** – View, cancel, and track current or historical orders.
-- 🤖 **Agent Analysis** – Get trading suggestions from rule-based CrewAI agents (no LLM required).
-- 🔍 **FAISS Integration** – Semantic vector search for embedded historical text data (e.g., logs, strategies).
-- 🔐 **Secure API Handling** – CoinDCX API credentials handled with `.env` and HMAC SHA256 signing.
-
----
-
+  - 👤 **User Authentication & Caching** – Login/Register using a simple `user_id`, stored with Redis.
+  - 📈 **Live Market Data** – Search and view current INR-based markets with price/volume metrics.
+  - 💼 **Portfolio Viewer** – View current holdings, locked balances, and INR value estimations.
+  - 💸 **Trade Execution** – Place market/limit buy/sell orders securely.
+  - 📃 **Order Management** – View, cancel, and track current or historical orders.
+  - 🤖 **Agent Analysis** – Get trading suggestions from rule-based CrewAI agents (no LLM required).
+  - 🔍 **FAISS Integration** – Semantic vector search for embedded historical text data (e.g., logs, strategies).
+  - 🔐 **Secure API Handling** – CoinDCX API credentials handled with `.env` and HMAC SHA256 signing.
+  
+```
 ## 📂 Project Structure
 
-![image](https://github.com/user-attachments/assets/842c2692-c17d-453e-8904-4fb9f8b8798e)
+[image](https://github.com/user-attachments/assets/842c2692-c17d-453e-8904-4fb9f8b8798e)
 
----
 
-## 📦 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/yourusername/coindcx-trading-platform.git](https://github.com/SINGHBP29/Coindcx/edit/main/)
-cd coindcx-trading-platform
+ ```` 
+  ## 📦 Installation
+  
+  ### 1. Clone the Repository
+  
+  ```bash
+  git clone [https://github.com/yourusername/coindcx-trading-platform.git](https://github.com/SINGHBP29/Coindcx/edit/main/)
+  cd coindcx-trading-platform
 ```
 
 ### 2. Setup Python Environment
