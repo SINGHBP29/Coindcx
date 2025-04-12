@@ -124,7 +124,7 @@ python main.py
 ```
 
 ---
-
+````
 ## 🔍 AI Agent Analysis (No LLMs Required)
 
 Simulated agents use historical market data to analyze trends and provide suggestions:
@@ -151,7 +151,7 @@ COINDCX_API_SECRET = "your_secret"
 5. Deploy and share the public link 🎉
 
 ---
-
+````
 ## ✅ TODO / Enhancements
 
 - [ ] Add chart-based portfolio visualization
@@ -172,15 +172,16 @@ Made with ❤️ using:
 - [AI Agents]
 
 ---
-
+`
 ## 📜 License
 
 MIT License. Use it, fork it, improve it!
 
 ---
-
-## 🙌 Author
+````
+🙌 Author
 
 **Your Name**  
-📫 Connect: [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/bpsingh29/)) | [GitHub]([https://github.com/yourusername](https://github.com/SINGHBP29))
+📫 Connect: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/bpsingh29/) | [https://github.com/yourusername](https://github.com/SINGHBP29)
 
+````
