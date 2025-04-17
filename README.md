@@ -181,7 +181,7 @@ MIT License. Use it, fork it, improve it!
 ````
 🙌 Author
 
-**Your Name**  
+**Bhanu Pratap Singh**  
 📫 Connect: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/bpsingh29/) | [https://github.com/yourusername](https://github.com/SINGHBP29)
 
 ````
